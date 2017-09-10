@@ -12,14 +12,13 @@
 ```kafka-console-producer.bat --broker-list localhost:9092 --topic test```
 
 ## Start command-line consumer
-### Old consumer
+###Old consumer
 ```C:\Users\ES230022>kafka-console-consumer.bat --zookeeper localhost:2181 --topic test```
 
-### New consumer
+###New consumer
 ```kafka-console-consumer.bat --bootstrap-server localhost:9092 ```
 
-## List topics
+##List topics
 ```kafka-topics.bat --list --zookeeper localhost:2181```
 
 ## List topic details
-TBA
